@@ -1,16 +1,20 @@
-package com.vipulsolanki.cloudinary.di
+package com.vipulsolanki.kloudinary.di
 
 import android.content.Context
-import com.vipulsolanki.cloudinary.model.AppDatabase
-import com.vipulsolanki.cloudinary.model.ImagesRepository
-import com.vipulsolanki.cloudinary.viewmodel.ImagesViewModelFactory
+import com.vipulsolanki.kloudinary.model.AppDatabase
+import com.vipulsolanki.kloudinary.model.ImagesRepository
+import com.vipulsolanki.kloudinary.viewmodel.ImagesViewModelFactory
 
 object InjectorUtils {
 
     fun provideImagesViewModelFactory(
         context: Context
     ): ImagesViewModelFactory {
-        return ImagesViewModelFactory(getImagesRepository(context))
+        return ImagesViewModelFactory(
+            getImagesRepository(
+                context
+            )
+        )
     }
 
     private fun getImagesRepository(context: Context): ImagesRepository {

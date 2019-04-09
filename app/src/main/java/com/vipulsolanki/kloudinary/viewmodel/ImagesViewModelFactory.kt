@@ -1,8 +1,8 @@
-package com.vipulsolanki.cloudinary.viewmodel
+package com.vipulsolanki.kloudinary.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.vipulsolanki.cloudinary.model.ImagesRepository
+import com.vipulsolanki.kloudinary.model.ImagesRepository
 
 class ImagesViewModelFactory(
     private val repository: ImagesRepository

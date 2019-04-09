@@ -1,4 +1,4 @@
-package com.vipulsolanki.cloudinary.ui
+package com.vipulsolanki.kloudinary.ui
 
 interface ImagesListCallback {
 

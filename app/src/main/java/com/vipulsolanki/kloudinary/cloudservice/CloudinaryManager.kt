@@ -1,4 +1,4 @@
-package com.vipulsolanki.cloudinary.cloudservice
+package com.vipulsolanki.kloudinary.cloudservice
 
 import android.content.Context
 import com.cloudinary.android.MediaManager

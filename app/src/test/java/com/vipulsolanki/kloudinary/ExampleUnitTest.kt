@@ -1,4 +1,4 @@
-package com.vipulsolanki.cloudinary
+package com.vipulsolanki.kloudinary
 
 import org.junit.Test
 

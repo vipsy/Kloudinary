@@ -1,4 +1,4 @@
-package com.vipulsolanki.cloudinary.viewmodel
+package com.vipulsolanki.kloudinary.viewmodel
 
 import android.net.Uri
 import android.provider.MediaStore
@@ -9,10 +9,10 @@ import androidx.lifecycle.viewModelScope
 import com.cloudinary.android.MediaManager
 import com.cloudinary.android.callback.ErrorInfo
 import com.cloudinary.android.callback.UploadCallback
-import com.vipulsolanki.cloudinary.cloudservice.UploadResult
-import com.vipulsolanki.cloudinary.model.ImagesRepository
-import com.vipulsolanki.cloudinary.model.LocalImage
-import com.vipulsolanki.cloudinary.model.RemoteImage
+import com.vipulsolanki.kloudinary.cloudservice.UploadResult
+import com.vipulsolanki.kloudinary.model.ImagesRepository
+import com.vipulsolanki.kloudinary.model.LocalImage
+import com.vipulsolanki.kloudinary.model.RemoteImage
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

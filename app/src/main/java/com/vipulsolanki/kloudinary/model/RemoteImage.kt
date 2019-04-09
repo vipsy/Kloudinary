@@ -1,7 +1,7 @@
-package com.vipulsolanki.cloudinary.model
+package com.vipulsolanki.kloudinary.model
 
 import androidx.room.*
-import com.vipulsolanki.cloudinary.cloudservice.UploadResult
+import com.vipulsolanki.kloudinary.cloudservice.UploadResult
 
 @Entity(
     tableName = "remote_images",

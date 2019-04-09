@@ -1,7 +1,7 @@
-package com.vipulsolanki.cloudinary
+package com.vipulsolanki.kloudinary
 
 import android.app.Application
-import com.vipulsolanki.cloudinary.cloudservice.CloudinaryManager
+import com.vipulsolanki.kloudinary.cloudservice.CloudinaryManager
 
 class App : Application() {
 

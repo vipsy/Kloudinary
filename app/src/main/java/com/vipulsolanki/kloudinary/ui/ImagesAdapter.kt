@@ -1,17 +1,15 @@
-package com.vipulsolanki.cloudinary.ui
+package com.vipulsolanki.kloudinary.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.DiffUtil
-import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.cloudinary.android.MediaManager
 import com.cloudinary.android.ResponsiveUrl
 import com.squareup.picasso.Picasso
-import com.vipulsolanki.cloudinary.R
-import com.vipulsolanki.cloudinary.model.LocalImage
-import com.vipulsolanki.cloudinary.model.RemoteImage
+import com.vipulsolanki.kloudinary.R
+import com.vipulsolanki.kloudinary.model.LocalImage
+import com.vipulsolanki.kloudinary.model.RemoteImage
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_image.view.*
 

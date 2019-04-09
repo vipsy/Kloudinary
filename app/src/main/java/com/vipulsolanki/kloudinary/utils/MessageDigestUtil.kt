@@ -1,4 +1,4 @@
-package com.vipulsolanki.cloudinary.utils
+package com.vipulsolanki.kloudinary.utils
 
 import org.apache.commons.codec.binary.Hex
 import org.apache.commons.codec.digest.DigestUtils

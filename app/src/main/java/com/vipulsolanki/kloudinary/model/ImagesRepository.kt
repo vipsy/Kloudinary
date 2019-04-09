@@ -1,4 +1,4 @@
-package com.vipulsolanki.cloudinary.model
+package com.vipulsolanki.kloudinary.model
 
 import androidx.lifecycle.LiveData
 

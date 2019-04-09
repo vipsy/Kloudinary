@@ -1,8 +1,8 @@
-package com.vipulsolanki.cloudinary.model
+package com.vipulsolanki.kloudinary.model
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.vipulsolanki.cloudinary.model.RemoteImage
+import com.vipulsolanki.kloudinary.model.RemoteImage
 
 @Dao
 interface ImagesDao {

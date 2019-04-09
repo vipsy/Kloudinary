@@ -1,4 +1,4 @@
-package com.vipulsolanki.cloudinary.viewmodel
+package com.vipulsolanki.kloudinary.viewmodel
 
 interface ImagesViewModelHostCallback {
 

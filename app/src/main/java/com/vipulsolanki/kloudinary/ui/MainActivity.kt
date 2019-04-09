@@ -1,4 +1,4 @@
-package com.vipulsolanki.cloudinary.ui
+package com.vipulsolanki.kloudinary.ui
 
 import android.app.Activity
 import android.content.Intent
@@ -8,11 +8,11 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.google.android.material.snackbar.Snackbar
-import com.vipulsolanki.cloudinary.R
-import com.vipulsolanki.cloudinary.di.InjectorUtils
-import com.vipulsolanki.cloudinary.utils.MessageDigestUtil
-import com.vipulsolanki.cloudinary.viewmodel.ImagesViewModel
-import com.vipulsolanki.cloudinary.viewmodel.ImagesViewModelHostCallback
+import com.vipulsolanki.kloudinary.R
+import com.vipulsolanki.kloudinary.di.InjectorUtils
+import com.vipulsolanki.kloudinary.utils.MessageDigestUtil
+import com.vipulsolanki.kloudinary.viewmodel.ImagesViewModel
+import com.vipulsolanki.kloudinary.viewmodel.ImagesViewModelHostCallback
 import kotlinx.android.synthetic.main.activity_main.*
 
 const val REQUEST_PICK_IMAGES = 1001

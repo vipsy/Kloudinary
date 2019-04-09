@@ -1,4 +1,4 @@
-package com.vipulsolanki.cloudinary.cloudservice
+package com.vipulsolanki.kloudinary.cloudservice
 
 class UploadResult(val map : Map<Any?, Any?>) {
 
