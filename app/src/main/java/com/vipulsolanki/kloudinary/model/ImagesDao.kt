@@ -6,7 +6,7 @@ import com.vipulsolanki.kloudinary.model.RemoteImage
 
 @Dao
 interface ImagesDao {
-    @Query("SELECT * FROM remote_images")
+    @Query("SELECT * FROM remote_images ORDER BY id DESC")
     fun getRemoteImages(): LiveData<List<RemoteImage>>
 
     @Query("SELECT * FROM remote_images WHERE public_id = :publicId")

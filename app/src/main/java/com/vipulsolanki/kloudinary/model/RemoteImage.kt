@@ -3,6 +3,14 @@ package com.vipulsolanki.kloudinary.model
 import androidx.room.*
 import com.vipulsolanki.kloudinary.cloudservice.UploadResult
 
+/***
+ * RemoteImage represents an already uploaded image to cloudinary.
+ * I couldn't find a way to browse existing images and get all public-Ids,
+ * and don't have a server component where I can keep track of all images
+ * so created this class to keep local track of all images uploaded.
+ *
+ */
+
 @Entity(
     tableName = "remote_images",
     indices = [Index("public_id"), Index("etag")]

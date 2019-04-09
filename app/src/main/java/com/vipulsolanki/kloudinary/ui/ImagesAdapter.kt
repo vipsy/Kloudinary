@@ -43,7 +43,11 @@ class ImagesAdapter : RecyclerView.Adapter<ImagesAdapter.ImageViewHolder>() {
         fun apply(remoteImage: RemoteImage) {
             MediaManager.get()
                 .responsiveUrl(containerView, remoteImage.publicId, ResponsiveUrl.Preset.AUTO_FILL) {
-                    Picasso.get().load(remoteImage.secureUrl).into(containerView.image_view)
+                    MediaManager.get().responsiveUrl(containerView.image_view, remoteImage.publicId, ResponsiveUrl.Preset.AUTO_FILL) {
+                        it.transformation().aspectRatio(10,14).fetchFormat("webp")
+                        Picasso.get().load(it.generate()).into(containerView.image_view)
+                    }
+
                 }
 
         }
